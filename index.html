@@ -13,29 +13,29 @@
     </article>
     <main>
         <section class="section add-section">
-            <label for="new-task">Add Item</label>
-            <div class="task-row-wrapper">
-                <input class="section__item__text" id="new-task" type="text">
+            <label class="section__item__text" for="new-task">Add Item</label>
+            <div class="section__wrapper">
+                <input class="section__item__input-text" id="new-task" type="text">
                 <button>Add</button>
             </div>
         </section>
         <section class="section todo-section">
-            <h3>Todo</h3>
+            <h3 class="section__title">Todo</h3>
             <ul class="section__list" id="todo-list">
                 <li class="section__list__item">
                     <input class="section__checkbox" type="checkbox">
                     <label class="section__item__text">Pay Bills</label>
                     <input class="section__item__input-text" type="text">
-                    <button class="button section__item__edit">Edit</button>
+                    <button class="button section__edit">Edit</button>
                     <button class="button section__item__delete">
                         <img class="button__img" src="./remove.svg">
                     </button>
                 </li>
-                <li class="section__list__item section__list__item__edit">
+                <li class="section__list__item section__list-item_edited">
                     <input class="section__checkbox" type="checkbox">
                     <label class="section__item__text">Go Shopping</label>
                     <input class="section__item__input-text" type="text" value="Go Shopping">
-                    <button class='button section__item__edit'>Save</button>
+                    <button class='button section__edit'>Save</button>
                     <button class="button section__item__delete">
                         <img class="button__img" src="./remove.svg">
                     </button>
@@ -43,13 +43,13 @@
             </ul>
         </section>
         <section class="section complete-section">
-            <h3>Completed</h3>
+            <h3 class="section__title">Completed</h3>
             <ul class="section__list" id="completed-list">
                 <li class="section__list__item">
                     <input class="section__checkbox" type="checkbox" checked>
                     <label class="section__item__text">See the Doctor</label>
                     <input class="section__item__input-text" type="text">
-                    <button class="section__item__edit">Edit</button>
+                    <button class="section__edit">Edit</button>
                     <button class="section__item__delete">
                         <img class="button__img" src="./remove.svg">
                     </button>

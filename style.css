@@ -33,13 +33,13 @@
     margin: 0 auto 0;
 }
 
-.section__item__text {
+.section__item__input-text {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section__wrapper {
     display: flex;
 }
 
@@ -75,7 +75,7 @@ button:hover {
 
 /* Heading */
 
-h3,
+.section__title,
 .add-section .section__item__text {
     color: #333;
     font-weight: 700;
@@ -111,7 +111,7 @@ h3,
     margin: 0 0 20px;
 }
 
-.add-section .section__item__text {
+.add-section .section__item__input-text {
     width: 318px;
 }
 
@@ -131,7 +131,7 @@ h3,
     margin: 0 10px;
 }
 
-.section__item__text {
+.section__list__item .section__item__text {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -167,11 +167,11 @@ h3,
     display: none;
 }
 
-.section__list__item__edit .section__item__input-text {
+.editMode .section__item__input-text {
     display: inline-block;
     width: 224px;
 }
 
-.section__list__item__edit .section__item__text {
+.editMode .section__item__text {
     display: none;
 }

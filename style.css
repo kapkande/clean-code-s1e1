@@ -33,7 +33,7 @@
     margin: 0 auto 0;
 }
 
-.task {
+.section__item__text {
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -43,7 +43,7 @@
     display: flex;
 }
 
-ul {
+.section__list {
     margin: 0;
     padding: 0px;
 }

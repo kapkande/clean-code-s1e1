@@ -171,7 +171,3 @@ button:hover {
     display: inline-block;
     width: 224px;
 }
-
-.editMode .section__item__text {
-    display: none;
-}

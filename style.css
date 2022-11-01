@@ -13,7 +13,7 @@
     text-align: right;
 }
 
-.article__imege {
+.article__image {
     width: 100%;
 }
 
@@ -144,13 +144,13 @@ button {
     width: 226px;
 }
 
-.button__imege {
+.button__image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.button__imege:hover {
+.button__image:hover {
     transform: rotateZ(0);
 }
 

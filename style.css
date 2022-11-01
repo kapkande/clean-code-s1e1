@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.section__item__input-text,
+.section__item__input_text,
 .section__item__text {
   width: 56%;
   display: inline-block;
@@ -90,7 +90,7 @@ button {
   width: 100%;
 }
 
-.section__item__input-text {
+.section__item__input_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -103,7 +103,7 @@ button {
   color: #888;
 }
 
-.section__item__input-text:focus {
+.section__item__input_text:focus {
   color: #333;
 }
 
@@ -114,7 +114,7 @@ button {
   margin: 0 0 20px;
 }
 
-.add-section .section__item__input-text {
+.add-section .section__item__input_text {
   width: 318px;
 }
 
@@ -140,7 +140,7 @@ button {
   width: 226px;
 }
 
-.section__list__item .section__item__input-text {
+.section__list__item .section__item__input_text {
   width: 226px;
 }
 
@@ -164,11 +164,11 @@ button {
 
 /* Edit Task */
 
-.section__list__item .section__item__input-text {
+.section__list__item .section__item__input_text {
   display: none;
 }
 
-.editMode .section__item__input-text {
+.editMode .section__item__input_text {
   display: inline-block;
   width: 224px;
 }
